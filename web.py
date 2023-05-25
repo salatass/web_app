@@ -8,9 +8,9 @@ def add_todo():
     todos.append(todo + '\n')
     ft.write_todos(todos)
 
-st.title("My Todo App")
-st.subheader("This is my todo app")
-st.write("This is to keep track of stuff")
+st.title("Fast-packing Trip")
+st.subheader("Summer 2023, Mont Blanc")
+st.write("To do list")
 
 
 for index, todo in enumerate(todos):
