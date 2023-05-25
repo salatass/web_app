@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-app1"
+version = "0.1.0"
+description = ""
+authors = ["BARINGA\\Panayiotis.Salatas <panayiotis.salatas@baringa.com>"]
+readme = "README.md"
+packages = [{include = "web_app1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
